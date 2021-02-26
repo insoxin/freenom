@@ -23,7 +23,10 @@ on:
 jobs:
   run-it:
     runs-on: ubuntu-18.04
-    name: Run it on action
+  env:
+      TZ: Asia/Shanghai
+
+    name: 自动续费
     steps:
       - name: Checkout master
         uses: actions/checkout@v2
