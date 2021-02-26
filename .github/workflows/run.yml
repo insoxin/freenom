@@ -24,9 +24,7 @@ jobs:
   run-it:
     runs-on: ubuntu-18.04
 
-     env: 
-       TZ: Asia/Shanghai
-
+     
     steps:
       - name: Checkout master
         uses: actions/checkout@v2
