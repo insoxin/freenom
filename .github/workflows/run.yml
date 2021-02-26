@@ -23,9 +23,7 @@ on:
 jobs:
   run-it:
     runs-on: ubuntu-18.04
-  env:
-      TZ: Asia/Shanghai
-
+    TZ: Asia/Shanghai
     name: 自动续费
     steps:
       - name: Checkout master
